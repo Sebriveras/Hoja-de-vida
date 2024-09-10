@@ -1,0 +1,115 @@
+
+:root{
+    --black: #1C1B1F;
+    --dark-gray: #2a282c;
+    --white: #F4F4F4;
+    
+    font-family: 'Montserrat';
+    line-height: 160%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding: 5% 12%;
+    color: var(--white);
+    background-color: var(--black);
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+#header > div:first-child{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#contact-info{
+    display: flex;
+    gap: 24px;
+}
+
+#contact-info div{
+    display: inline-flex;
+    gap: 4px;
+}
+
+#professional-profile{
+    background-color: var(--dark-gray);
+    padding: 16px 24px;
+    border-radius: 8px;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+/*-------------Card Experience----------------*/
+
+table{
+    width: 100%;
+    border-spacing: 0 64px 0 0;
+}
+
+tr{padding: 600px 0;}
+
+td{
+    text-align: start;
+    vertical-align: top;
+    width: 100%;
+}
+
+.td-company{
+    width: 20%;
+}
+
+.date{ 
+    opacity: 0.7;
+}
+
+/*-------------General----------------*/
+
+.divider{
+    display: flex;
+    flex-direction: column; 
+    gap: 4px;
+}
+
+.line{
+    height: 1px;
+    width: 100%;
+    background-color: var(--white);
+    opacity: 0.5;
+}
+
+/*-------------Texto-----------------*/
+
+h1, h2, h3, h4, h5, h6, p, small{
+    margin: 0;
+    padding: 0;
+}
+
+.title{font-size: 25px}
+.subtitle{font-size: 20px}
+.text{font-size: 16px}
+.mini{
+    font-size: 13px;
+}
+
+.bold{font-weight: 600}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 24
+}
+
